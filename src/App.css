@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+#jokeLenght{
+  font-size: large;
+  color:black;
+  background-color: #70a4d1; 
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+#link{
+  padding: 0 10px;
+  text-decoration: none;
+}
+#link:hover{
+  text-decoration: underline;
+}
+.Jokes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  color:black
+}
+
+.card {
+  /* border:2px solid red; */
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 2em;
+  display:flex;
+  flex: 1 0 21%;
+  flex-direction: column; 
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #008cba; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; 
+  margin-top: 10px;
+  cursor: pointer; 
+  opacity:1;
+}
+.button:hover{
+  color:white;
+  opacity:0.8;
+}
